@@ -259,7 +259,7 @@ function runDevServer(host, port, protocol) {
       ignored: /node_modules/
     },
     proxy: {
-      "*": "http://localhost:8080"
+      "/api/*": "http://localhost:8080"
     },
     // Enable HTTPS if the HTTPS environment variable is set to 'true'
     https: protocol === "https",
