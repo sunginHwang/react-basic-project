@@ -10,7 +10,7 @@ backend : 노드(익스프레스)
 비동기 미들웨어 구성 : redux-pender
 
 # 사용법
-
+npm install -g babel-cli
 server : cd basic-backend && npm install && npm start
 front : cd basic-frontend && npm install && npm start
 
